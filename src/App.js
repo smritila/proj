@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import DestinationCard from "./components/DestinationCard";
+import DestinationCarousel from "./components/DestinationCarousel";
 
 function App() {
   return (
@@ -95,6 +96,7 @@ function App() {
         </div>
         <button className="destinations-read-more">Read More</button>
       </section>
+      <DestinationCarousel />
     </div>
   );
 }
