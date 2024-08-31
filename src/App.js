@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import DestinationCard from "./components/DestinationCard";
 
 function App() {
   return (
@@ -70,6 +71,29 @@ function App() {
             <button className="about-button">Read More</button>
           </div>
         </div>
+      </section>
+      <section className="destinations-section">
+        <h2 className="destinations-heading">We are Super Specialists</h2>
+        <p className="destinations-subheading">
+          Explore our top destinations lorem ipsum explore our top destinations
+          <br />
+          Explore our top destinations lorem ipsum explore our top destinations
+        </p>
+        <div className="destinations-grid">
+          <DestinationCard
+            image="/images/Rectangle 30.png"
+            title="South Africa"
+          />
+          <DestinationCard image="/images/Rectangle 30.png" title="London" />
+          <DestinationCard image="/images/Rectangle 30.png" title="India" />
+          <DestinationCard image="/images/Rectangle 30.png" title="Greece" />
+          <DestinationCard image="/images/Rectangle 30.png" title="America" />
+          <DestinationCard image="/images/Rectangle 30.png" title="Italy" />
+          <DestinationCard image="/images/Rectangle 30.png" title="Italy" />
+          <DestinationCard image="/images/Rectangle 30.png" title="Italy" />
+          <DestinationCard image="/images/Rectangle 30.png" title="Italy" />
+        </div>
+        <button className="destinations-read-more">Read More</button>
       </section>
     </div>
   );

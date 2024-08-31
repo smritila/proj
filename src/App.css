@@ -165,3 +165,42 @@
 .about-button:hover {
   background-color: #d47a00;
 }
+
+.destinations-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.destinations-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.destinations-subheading {
+  font-size: 1rem;
+  margin-bottom: 40px;
+  color: #777;
+}
+
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.destinations-read-more {
+  margin-top: 40px;
+  padding: 10px 20px;
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.destinations-read-more:hover {
+  background-color: #e14c4f;
+}
