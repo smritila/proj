@@ -1,7 +1,9 @@
 import React from "react";
 import "./App.css";
 import DestinationCard from "./components/DestinationCard";
+
 import DestinationCarousel from "./components/DestinationCarousel";
+import DestinationGrid from "./components/DestinationGrid";
 
 function App() {
   return (
@@ -97,6 +99,8 @@ function App() {
         <button className="destinations-read-more">Read More</button>
       </section>
       <DestinationCarousel />
+      <DestinationCard />
+      <DestinationGrid />
     </div>
   );
 }
