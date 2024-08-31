@@ -1,0 +1,76 @@
+.footer {
+  background-color: aliceblue; /* Use the map image provided */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-logo-section {
+  text-align: center;
+  flex: 1;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-tagline {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-social-icon {
+  font-size: 1.5rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-social-icon:hover {
+  color: #ff6f00;
+}
+
+.footer-links-section {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+}
+
+.footer-links-column {
+  text-align: left;
+}
+
+.footer-links-heading {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-links-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links-list li {
+  margin-bottom: 10px;
+}
+
+.footer-links-list a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-links-list a:hover {
+  color: #ff6f00;
+}

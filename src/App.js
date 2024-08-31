@@ -5,6 +5,7 @@ import DestinationCard from "./components/DestinationCard";
 import DestinationCarousel from "./components/DestinationCarousel";
 import NewsBlogsSection from "./components/NewsBlogsSection";
 import NewsletterAndSupport from "./components/NewsletterAndSupport";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -102,6 +103,7 @@ function App() {
         <button className="destinations-read-more">Read More</button>
       </section>
       <DestinationCarousel />
+      <Footer />
     </div>
   );
 }
