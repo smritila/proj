@@ -1,22 +1,17 @@
 .footer {
-  background-color: aliceblue; /* Use the map image provided */
-  background-size: cover;
-  background-position: center;
-  padding: 60px 20px;
-  color: #333;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  background-color: #f8f8f8;
+  padding: 40px 20px;
+  text-align: center;
 }
 
 .footer-logo-section {
-  text-align: center;
-  flex: 1;
+  margin-bottom: 20px;
 }
 
 .footer-logo {
   width: 150px;
-  margin-bottom: 10px;
+  margin: 0 auto;
+  display: block;
 }
 
 .footer-tagline {
@@ -29,6 +24,7 @@
   display: flex;
   justify-content: center;
   gap: 15px;
+  margin-bottom: 30px;
 }
 
 .footer-social-icon {
@@ -43,12 +39,14 @@
 
 .footer-links-section {
   display: flex;
-  flex: 2;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .footer-links-column {
   text-align: left;
+  min-width: 150px;
 }
 
 .footer-links-heading {

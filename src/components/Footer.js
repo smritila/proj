@@ -1,7 +1,6 @@
 import React from "react";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import {
   faFacebookF,
   faTwitter,
@@ -24,10 +23,10 @@ function Footer() {
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
           <a href="#" className="footer-social-icon">
-            <FontAwesomeIcon icon={faInstagram} />
+            <FontAwesomeIcon icon={faTwitter} />
           </a>
           <a href="#" className="footer-social-icon">
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a href="#" className="footer-social-icon">
             <FontAwesomeIcon icon={faYoutube} />
