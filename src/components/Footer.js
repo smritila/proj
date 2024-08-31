@@ -1,9 +1,13 @@
 import React from "react";
 import "./Footer.css";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import YouTubeIcon from "@mui/icons-material/YouTube";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -17,16 +21,16 @@ function Footer() {
         <p className="footer-tagline">Passion...People...Places</p>
         <div className="footer-social-icons">
           <a href="#" className="footer-social-icon">
-            <FacebookIcon />
+            <FontAwesomeIcon icon={faFacebookF} />
           </a>
           <a href="#" className="footer-social-icon">
-            <TwitterIcon />
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a href="#" className="footer-social-icon">
-            <InstagramIcon />
+            <FontAwesomeIcon icon={faTwitter} />
           </a>
           <a href="#" className="footer-social-icon">
-            <YouTubeIcon />
+            <FontAwesomeIcon icon={faYoutube} />
           </a>
         </div>
       </div>

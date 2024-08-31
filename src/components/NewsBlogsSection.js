@@ -2,17 +2,19 @@ import React from "react";
 import NewsBlogCard from "./NewsBlogCard";
 import "./NewsBlogsSection.css";
 
+import DestinationImage from "../assets/images/destination-1.png";
+
 function NewsBlogsSection() {
   const blogs = [
     {
-      image: "/images/Rectangle 32.png",
+      image: DestinationImage,
       category: "Allure Trails",
       title: "French Polynesia – Exotic land of colors and beaches",
       description:
         "At Stanbrook Tourism, we know that luxury is personal. With over two decade's experience in arranging the finest luxury holidays, we go that extra mile to ensure every detail is built around you.",
     },
     {
-      image: "/images/Rectangle 32.png",
+      image: DestinationImage,
       category: "Allure Trails",
       title: "French Polynesia – Exotic land of colors and beaches",
       description:
