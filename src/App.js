@@ -100,7 +100,6 @@ function App() {
         <button className="destinations-read-more">Read More</button>
       </section>
       <DestinationCarousel />
-      {/* <NewsBlogsSection /> */}
     </div>
   );
 }

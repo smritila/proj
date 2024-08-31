@@ -1,12 +1,12 @@
 .news-blogs-section {
   padding: 40px 20px;
   text-align: center;
-  background-color: #403434;
+  background-color: hsl(0, 43%, 96%);
 }
 
 .section-title {
-  font-size: 2rem;
-  margin-bottom: 40px;
+  font-size: 1.5rem;
+  color: black;
 }
 
 .news-blogs-grid {

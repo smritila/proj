@@ -23,12 +23,13 @@
 .news-blog-category {
   color: #007bff;
   font-size: 0.9rem;
-  margin-top: 30px;
+  text-align: center;
 }
 
 .news-blog-title {
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   font-weight: bold;
+  color: black;
   margin-bottom: 10px;
 }
 
