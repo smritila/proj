@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import DestinationCard from "./components/DestinationCard";
 
+import TheHero from "./components/TheHero";
+import SuperSpeciaLists from "./components/SuperSpecialists";
 import DestinationCarousel from "./components/DestinationCarousel";
 import NewsBlogsSection from "./components/NewsBlogsSection";
 import NewsletterAndSupport from "./components/NewsletterAndSupport";
 import Footer from "./components/Footer";
+import ExperienceTrail from "./components/ExperienceTrail";
 
 function App() {
   return (
@@ -31,22 +33,7 @@ function App() {
         </nav>
       </header>
 
-      <section className="hero-section">
-        <div className="hero-content">
-          <h2 className="hero-title">Explore The World</h2>
-          <h1 className="hero-heading">
-            MAKE YOUR LIFE A MEMORABLE SYMPHONY OF TRAVEL
-          </h1>
-          <p className="hero-subtext">
-            It’s time to elevate your travel out of the ordinary. Passionate
-            about travel and tailor-made holidays, we use our in-depth knowledge
-            to craft trips that push the boundaries beyond your imagination. We
-            have hand-picked many breathtaking experiences for you, a preview of
-            the curated journeys you will indulge in.
-          </p>
-          <button className="hero-button">Explore Our Trips</button>
-        </div>
-      </section>
+      <TheHero />
 
       <section className="about-section">
         <div className="about-content">
@@ -73,36 +60,20 @@ function App() {
               Privately owned by full-time, hands-on directors, backed up by a
               loyal and ...
             </p>
-            <button className="about-button">Read More</button>
+            <button className="primary-button">Read More</button>
           </div>
         </div>
       </section>
-      <NewsBlogsSection />
-      <NewsletterAndSupport />
-      <section className="destinations-section">
-        <h2 className="destinations-heading">We are Super Specialists</h2>
-        <p className="destinations-subheading">
-          Explore our top destinations lorem ipsum explore our top destinations
-          <br />
-          Explore our top destinations lorem ipsum explore our top destinations
-        </p>
-        <div className="destinations-grid">
-          <DestinationCard
-            image="/images/Rectangle 30.png"
-            title="South Africa"
-          />
-          <DestinationCard image="/images/Rectangle 30.png" title="London" />
-          <DestinationCard image="/images/Rectangle 30.png" title="India" />
-          <DestinationCard image="/images/Rectangle 30.png" title="Greece" />
-          <DestinationCard image="/images/Rectangle 30.png" title="America" />
-          <DestinationCard image="/images/Rectangle 30.png" title="Italy" />
-          <DestinationCard image="/images/Rectangle 30.png" title="Italy" />
-          <DestinationCard image="/images/Rectangle 30.png" title="Italy" />
-          <DestinationCard image="/images/Rectangle 30.png" title="Italy" />
-        </div>
-        <button className="destinations-read-more">Read More</button>
-      </section>
+      <SuperSpeciaLists />
+
       <DestinationCarousel />
+
+      <ExperienceTrail />
+
+      <NewsBlogsSection />
+
+      <NewsletterAndSupport />
+
       <Footer />
     </div>
   );

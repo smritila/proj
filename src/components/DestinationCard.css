@@ -1,9 +1,15 @@
 .destination-card {
-  background-color: white;
+  position: relative;
+  cursor: pointer;
 }
 
-.destination-card:hover {
-  transform: translateY(-5px);
+.destination-image-container {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.destination-card:hover .destination-image-container {
+  opacity: 0.3;
 }
 
 .destination-image {
@@ -20,7 +26,23 @@
 .destination-title {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #333;
+  color: #fff;
+}
+
+.absolute-positioned {
+  z-index: 10;
+  position: absolute; /* Position the child absolutely */
+  top: 50%; /* Move the child down 50% of the parent's height */
+  left: 50%; /* Move the child right 50% of the parent's width */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Shift it back by 50% of its own width and height */
+  text-align: center; /* Center text inside the child */
+}
+
+.destination-card:hover .destination-title {
+  color: #ee7c00;
 }
 
 .destination-description {
