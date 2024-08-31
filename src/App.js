@@ -4,6 +4,7 @@ import DestinationCard from "./components/DestinationCard";
 
 import DestinationCarousel from "./components/DestinationCarousel";
 import NewsBlogsSection from "./components/NewsBlogsSection";
+import NewsletterAndSupport from "./components/NewsletterAndSupport";
 
 function App() {
   return (
@@ -76,6 +77,7 @@ function App() {
         </div>
       </section>
       <NewsBlogsSection />
+      <NewsletterAndSupport />
       <section className="destinations-section">
         <h2 className="destinations-heading">We are Super Specialists</h2>
         <p className="destinations-subheading">
