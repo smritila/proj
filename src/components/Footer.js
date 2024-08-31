@@ -17,7 +17,7 @@ function Footer() {
           alt="Stanbrook Tourism Logo"
           className="footer-logo"
         />
-        <p className="footer-tagline">Passion...People...Places</p>
+
         <div className="footer-social-icons">
           <a href="#" className="footer-social-icon">
             <FontAwesomeIcon icon={faFacebookF} />
