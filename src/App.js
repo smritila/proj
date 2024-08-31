@@ -3,6 +3,7 @@ import "./App.css";
 import DestinationCard from "./components/DestinationCard";
 
 import DestinationCarousel from "./components/DestinationCarousel";
+import NewsBlogsSection from "./components/NewsBlogsSection";
 
 function App() {
   return (
@@ -74,6 +75,7 @@ function App() {
           </div>
         </div>
       </section>
+      <NewsBlogsSection />
       <section className="destinations-section">
         <h2 className="destinations-heading">We are Super Specialists</h2>
         <p className="destinations-subheading">
@@ -98,6 +100,7 @@ function App() {
         <button className="destinations-read-more">Read More</button>
       </section>
       <DestinationCarousel />
+      {/* <NewsBlogsSection /> */}
     </div>
   );
 }
