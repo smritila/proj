@@ -1,6 +1,6 @@
 import React from "react";
 
-import HeroBackgroundImage from "../assets/images/hero-bg-1.png";
+import HeroBackgroundImage from "../assets/images/mountain-with-lake.jpg";
 
 function TheHero() {
   const containerStyle = {
