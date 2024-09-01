@@ -1,0 +1,11 @@
+.shell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.container {
+  width: 70%;
+  max-width: 1200px;
+}

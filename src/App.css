@@ -163,16 +163,27 @@ body {
 .primary-button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #f7962e;
+  background-color: #ee7c00;
   color: white;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .primary-button:hover {
   background-color: #d47a00;
+}
+
+.primary-button--outlined {
+  background-color: white;
+  color: #ee7c00;
+  border: solid 1px #ee7c00;
+}
+
+.primary-button--outlined:hover {
+  background-color: #ee7c00;
+  border: none;
+  color: white;
 }
 
 .truncate {

@@ -1,15 +1,6 @@
-.carousel-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 40px 20px;
+.carousel-content {
   background-color: #004d40;
   color: white;
-}
-
-.carousel-content {
-  width: 70%;
-  max-width: 1200px;
 }
 
 .carousel-content-header {
@@ -35,52 +26,6 @@
 .carousel-cards {
   display: flex;
   justify-content: space-between;
-}
-
-.carousel-card {
-  background-color: white;
-  color: black;
-  overflow: hidden;
-  width: 32%;
-  padding-top: 42%;
-  position: relative;
-}
-
-.carousel-card-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 10px;
-}
-
-.carousel-card-container {
-  background-color: white;
-  width: 100%;
-  height: 200px;
-  border: 1px solid #004d47;
-  padding: 25px 15px 15px 15px;
-  box-sizing: border-box;
-  text-align: left;
-}
-
-.carousel-card-container-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 5px;
-}
-
-.carousel-card-title {
-  margin: 0;
-  font-size: 1.5rem;
-  color: #00aa9e;
-}
-
-.carousel-description {
-  font-size: 0.9rem;
-  margin-bottom: 20px;
-  color: #555;
 }
 
 .carousel-nav {

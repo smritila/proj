@@ -30,7 +30,11 @@ function SuperSpeciaLists() {
         following countries.
       </p>
       <div className="destinations-grid">
-        <img className="destinations-section-image" src={FlightImage} />
+        <img
+          className="destinations-section-image"
+          alt="Destination Section"
+          src={FlightImage}
+        />
         {destinations.map((destination, idx) => {
           return (
             <DestinationCard
