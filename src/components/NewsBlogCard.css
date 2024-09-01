@@ -1,12 +1,11 @@
-.news-blog-card {
+/* .news-blog-card {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: white;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-}
+  background-color: white;
+} */
 
 .news-blog-image {
   width: 150px;
