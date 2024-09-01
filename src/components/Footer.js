@@ -7,10 +7,22 @@ import {
   faInstagram,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import backgroundmap from "../assets/images/background-map.png";
+import standingperson from "../assets/images/standing-person.png";
 
 function Footer() {
+  const containerStyle = {
+    backgroundImage: `url(${backgroundmap})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  };
   return (
-    <footer className="footer">
+    <footer className="footer" style={containerStyle}>
+      <img
+        src={standingperson}
+        className="footer-image"
+        alt="standing person"
+      />
       <div className="footer-logo-section">
         <img
           src="/images/Group 921.png"
