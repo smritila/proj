@@ -4,18 +4,21 @@ import "./SuperSpecialists.css";
 
 import DestinationImage from "../assets/images/destination-2.png";
 import FlightImage from "../assets/images/flight.png";
+import DestinationImage3 from "../assets/images/Destination-3.jpg";
+import DestinationImage4 from "../assets/images/Destination-4.jpg";
+import DestinationImage5 from "../assets/images/Destination-4.jpg";
 
 function SuperSpeciaLists() {
   const destinations = [
-    { image: DestinationImage, title: "South Africa" },
-    { image: DestinationImage, title: "London" },
+    { image: DestinationImage4, title: "South Africa" },
+    { image: DestinationImage3, title: "London" },
     { image: DestinationImage, title: "India" },
     { image: DestinationImage, title: "Greece" },
     { image: DestinationImage, title: "America" },
-    { image: DestinationImage, title: "Italy" },
+    { image: DestinationImage5, title: "Italy" },
     { image: DestinationImage, title: "Russia" },
     { image: DestinationImage, title: "Japan" },
-    { image: DestinationImage, title: "Switzerland" }
+    { image: DestinationImage, title: "Switzerland" },
   ];
 
   return (
